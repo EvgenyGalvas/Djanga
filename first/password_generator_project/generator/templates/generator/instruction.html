@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+<div class="container">
+<h4>Пароль должен состоять из символов, цифр и букв<br>
+    Хороший пароль содержит заглавные (А, П, W, V) и прописные буквы (м, д, f, j) символы (#, @, <), знаки препинания<br>
+</h4>
+    <p><a href="{% url 'home' %}">Вернуться на главную</a></p>
+</div>
+</body>
+</html>
