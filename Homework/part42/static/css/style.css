@@ -1,0 +1,83 @@
+body{
+    background-image: url("1666584509_3-48.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-image: url('free-png.ru-335.png');
+    background-size: contain;
+    padding: 20px;
+    margin-top: 0;
+}
+
+.content{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.flash{
+    padding: 10px;
+}
+
+.flash.success{
+    border: 1px solid black;
+    background: yellow;
+}
+
+.flash.error{
+    border: 1px solid black;
+    background: red;
+}
+
+.menu a{
+    font-weight: bold;
+    font-size: larger;
+    color: rgb(237, 213, 134);
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+p>a{
+    text-decoration: none;
+    color: rgb(33, 41, 190);
+}
+
+li div{
+    padding: 10px 20px;
+}
+
+li>p, li div{
+    border: 1px solid black;
+}
+
+p.title{
+    margin: 0;
+    font-weight: bold;
+    background: gold;
+}
+
+p.title a{
+    display: block;
+    padding: 10px 20px;
+}
+
+p.title:hover{
+    background: orange;
+}
+
+.annonce{
+    background: white;
+    margin-bottom: 40px;
+    margin-top: -1px;
+}
