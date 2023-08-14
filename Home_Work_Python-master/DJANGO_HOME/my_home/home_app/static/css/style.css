@@ -1,0 +1,35 @@
+.fonn{
+width: 1800px;
+
+height: 226px;
+top: 2477px;
+left: 542px;
+fill: solid;
+background: #321010;
+}
+
+
+.fon-text{
+
+font-family: Inter;
+
+font-style: Regular;
+font-size: 40px;
+line-height: 48px;
+line-height: 100%;
+align: left;
+vertical-align: top;
+fill: solid;
+color: #F5F5F5;
+
+width: 539px;
+height: 78px;
+top: 2389px;
+left: 2006px;
+}
+
+
+.lop{
+text-align:center;
+
+}

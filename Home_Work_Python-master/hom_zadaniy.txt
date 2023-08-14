@@ -1,0 +1,238 @@
+﻿
+2.
+
+
+
+SELECT country, id, REM
+FROM Ware
+WHERE Country IS "Украина"
+
+
+
+Украина
+1002
+Primocom (15,2")
+Украина
+1018
+Computer Backpack (15,2)
+Украина
+1048
+System Case (15")
+Украина
+1205
+Nylon Computer Case (15'')
+
+
+
+
+
+
+3.
+
+DELETE
+FROM Ware
+WHERE Country IS "Германия"
+
+
+4.
+
+UPDATE Ware SET Country='Россия' WHERE Country IS 'Польша'
+
+
+
+
+5.
+
+INSERT INTO Ware (ID, Produce, Material, Color, Size, Country, ID_salespeople, Price, Count, REM)
+VALUES(1026, F8E157eaLRG, полиэстер / нейлон, чёрный, 38.1X28X70, Германия, 2014, 126, 0, Stone Street Case (15))
+
+
+
+6.
+
+
+CKN-002
+CKN-004
+NKN-017
+NKN-818
+NTN-712BK
+NTN-714BK
+
+
+SELECT Produce
+FROM Ware
+WHERE Produce IS NOT 'ч'
+
+
+
+7.
+
+INSERT INTO Ware
+VALUES('NTC-117BK Micro Camera Case', 'нейлон', 'ч', '13,3x8,3x5,7', '2016', 'Украина', '1046', NULL, NULL, NULL)
+
+
+
+
+8.
+
+INSERT INTO Ware
+VALUES('POC-463BK	Compact Camera Case', 'полиэстер', 'ч', '11x7x4,5', NULL, NULL, NULL, NULL, NULL, NULL)
+
+
+
+
+9.
+
+SELECT Produce
+FROM Ware
+WHERE ID_salespeople=2065 AND  Country='Россия'
+
+
+
+NTN-712BK
+NON-913RD
+KCB-01
+
+
+
+10.
+
+SELECT Produce
+FROM Ware
+WHERE 200 <  Size < 345
+
+
+
+CKN-002
+CKN-004
+NKN-017
+NKN-818
+NTN-712BK
+NTN-714BK
+
+
+
+
+
+
+11.
+
+SELECT Produce
+FROM Ware
+WHERE Size > '40х30х5' AND Material IS 'кожа'
+
+
+
+
+HB-1110
+
+
+
+
+14.
+
+SELECT Produce
+FROM Ware
+WHERE Count < 5 AND Price < 450 AND Material= 'кожа'
+
+
+
+GLN-001
+NE-L01 (F8L001ea)
+KCB-02L
+HB-1110
+
+
+
+
+15.
+
+SELECT Produce
+FROM Ware
+WHERE Material='нейлон' AND Price < 450
+
+
+NTN-712BK
+NTN-714BK
+NTN-891BK
+NON-913RD
+NON-915BK
+NON-915GY
+
+
+
+
+16.
+
+
+UPDATE Ware SET Material='брезент' WHERE Price < 200
+
+
+
+
+
+
+17.
+
+SELECT REM
+FROM Ware
+WHERE REM IS 'Meg Cosmo Brief(15,2") + косметичка'
+
+
+Meg Cosmo Brief(15,2") + косметичка
+Meg Cosmo Brief(15,2") + косметичка
+
+
+
+
+18.
+
+
+SELECT Produce, Material, Color, Size, Country, ID_salespeople, Price, Count, REM
+FROM Ware
+WHERE Material IS 'кожа' AND Color IS 'ч' AND Country IS 'Китай'
+
+
+
+SLN-062BK
+кожа
+ч
+36,8х26,7х6,4
+Китай
+2048
+304.0
+10
+She Rules TM Exclusive Leather (15,4") женская
+
+
+
+
+
+20.
+
+SELECT Country
+FROM Ware
+WHERE Color IS NOT 'ч'
+
+
+Россия
+Корея
+Китай
+Корея
+
+
+
+
+21. 
+
+UPDATE Ware SET Material='нейлон' WHERE Country IS 'Китай' AND Material IS 'полиэстер'
+
+
+
+22.
+
+UPDATE Ware SET Material='полиэстер' WHERE Country IS 'Китай' AND Material IS 'нейлон' AND ID IS 1015 AND ID IS 1041 AND ID IS 1032 AND ID IS 1010
+
+
+
+

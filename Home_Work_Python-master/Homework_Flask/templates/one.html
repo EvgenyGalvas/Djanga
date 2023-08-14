@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+{% block content %}
+
+<div class="head">
+
+    <p class="fad" style="margin-top:17px"><a href="{{url_for('get')}}">Каталог чипов</a></p>
+    <p class="daf" style="margin-left:1212px; margin-bottom:15px"><a href="{{url_for('get_add')}}">Добавить новый чип </a></p>
+
+</div>
+{% endblock %}
+
+</body>
+</html>

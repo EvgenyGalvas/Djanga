@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% block content %}
+    {% for choise in res %}
+      <p style="color:red">{{ choise.name }}</p>
+      <p><i>Characterictic:</i></p>
+      <p>{{ choise.characteristic }}</p>
+      <p>Price:</p>
+       <p>{{ choise.price }}</p>
+
+    {% endfor %}
+{% endblock %}
+</body>
+</html>

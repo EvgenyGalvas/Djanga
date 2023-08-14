@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% if user.is_authenticated %}
+
+<h1>ВТОРАЯ СТРАНИЦА</h1>
+{% else %}
+<p>К сожалению просмотр закрыт пользователям без учётной записи.</p>
+{% endif %}
+</body>
+</html>

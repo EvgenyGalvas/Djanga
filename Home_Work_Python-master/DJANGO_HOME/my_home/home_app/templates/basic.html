@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="icon"  type="image/x-icon" href="{% static 'images/favicon.ico' %}">
+</head>
+<body>
+{% block content %}
+<div class="fonn">
+    <div class="fon-text"><a href="{% static 'вакансии.text' %}"  target="_blank">вакансии сегодня</a></div>
+
+</div>
+{% if user.is_authenticated %}
+ <a href="{% url 'home_app:logout' %}">Выйти</a>
+{% else %}
+ <a href="{% url 'home_app:login' %}">Войти</a>
+ <a href="{% url 'home_app:register' %}">Регистрация</a>
+{% endif %}
+{% endblock %}
+</body>
+</html>

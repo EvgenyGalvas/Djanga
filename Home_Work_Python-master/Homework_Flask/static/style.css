@@ -1,0 +1,119 @@
+
+.body{
+background: #F37E7E;
+
+}
+
+
+.posit{
+position: absolute;
+width: 1283px;
+height: 174px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #50720A;
+}
+
+
+
+.davv{
+width: 1200px;
+height: 181px;
+margin-top: 250px;
+margin-left: 250px;
+background: #722828;
+}
+
+
+.t-text{
+width: 1400px;
+height: 230px;
+left: 575px;
+font-family: Inter;
+font-style: Regular;
+font-size: 40px;
+line-height: 48px;
+line-height: 100%;
+align: left;
+vertical-align: top;
+fill: solid;
+margin-left:152px;
+}
+
+
+a {
+
+color:#FF0000;
+
+text-decoration:none;
+
+}
+
+a:active {
+
+color:yellow;
+
+text-decoration:none;
+
+}
+
+a:visited {
+
+color:yellow;
+
+text-decoration:none;
+
+}
+
+a:hover {
+
+color:#339900;
+
+text-decoration: underline;
+
+}
+
+
+
+
+.head{
+fill: solid;
+background: #1B1919;
+width: 1800px;
+height: 165px;
+left: 390px;
+}
+
+
+.fad{
+font-family: inter;
+font-style: regular;
+font-size: 40px;
+line-height: 48px;
+line-height: 100%;
+align: left;
+vertical-align: top;
+fill: solid;
+color: white;
+width: 769px;
+
+}
+
+.daf{
+
+font-family: inter;
+font-style: regular;
+font-size: 40px;
+line-height: 48px;
+line-height: 100%;
+align: left;
+vertical-align: top;
+fill: solid;
+color: white;
+width: 787px;
+}

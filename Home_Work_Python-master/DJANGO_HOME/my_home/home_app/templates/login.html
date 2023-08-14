@@ -1,0 +1,17 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+
+{% block content %}
+
+<h1 class="lop">Войти в систему</h1>
+<div class="lop">
+<h3 style="color:blue">Введите логин и пароль</h3>
+<form method="post">
+    {% csrf_token %}
+    {{form.as_p}}
+        <button type="submit" style="color:red">Войти</button>
+
+</form>
+</div>
+{% endblock %}

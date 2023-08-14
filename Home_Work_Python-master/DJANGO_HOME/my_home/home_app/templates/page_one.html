@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% if user.is_authenticated %}
+<h1>ЕЩЁ ОДНА СТРАНИЦА</h1>
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos facilis perferendis
+quaerat rem repellat reprehenderit totam, voluptatem voluptatibus.
+Aut delectus dolore dolorem enim itaque placeat quidem saepe soluta veniam vitae.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dolores ipsa nobis obcaecati repellendus
+voluptatum? Cumque deleniti laboriosam molestiae perferendis unde voluptatem?
+At aut cupiditate distinctio explicabo, fugit recusandae voluptate.
+{% else %}
+<p>К сожалению просмотр закрыт пользователям без учётной записи.</p>
+{% endif %}
+</body>
+</html>
